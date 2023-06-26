@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DDE6ED;
+}
+
+/* navigation section */
+
+.nav-logo img{
+    width:100%;
+    position: relative;
+    top:20px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3AA6B9;
+    padding: 0% 15%;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu-links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-option{
+    width:70%;
+}
+
+.menu-links li{
+    margin: 2%;
+    padding: 0% 2%;
+    border-radius: 5%;
+    background-color: #2B2A4C;
+}
+
+.menu-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.menu-links li:hover{
+    background-color: rgba(10, 139, 139, 0.4);
+    color: #fff;
+}
+
+
+/* hero section */
+
+.hero-image img{
+    width:170%;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 3% 15%;
+    background-color: #fff;
+    border: solid #0fb4d1 2px;
+    
+}
+
+.hero-section h1{
+    font-family: monospace;
+    font-size: 280%;
+    font-weight:900;
+    margin-left: 20%;
+    padding: 0% 10%;
+}
+
+span{
+    background-color: #3888e9;
+    color: white;
+}
+
+span:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.book-appointment{
+    padding: 1% 2%;
+    font-family: monospace;
+    font-size: 120%;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+
+.book-appointment:hover{
+    padding: 1% 2%;
+    font-family: monospace;
+    font-size: 120%;
+    border-radius: 5px;
+    margin-left: 30%;
+    background-color: #2B2A4C;
+    color: #fff;
+    border-color: #3AA6B9;
+}
+
+/* service features */
+
+.service-features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 15%;
+}
+
+.service-features .features{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:20%;
+}
+
+.features h2{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-family: monospace;
+}
+
+.features p{
+    margin: 0%;
+    text-align: justify;
+    font-family: monospace;
+}
+
+.features img{
+    border: solid #0fb4d1 2px;
+    width: 100%;
+    box-shadow: 0px 6px 5px black;
+}
+
+
+
+/* hairstyle section */
+
+.hairstyle-section{
+    margin: 3% 15%;
+    float: left;
+}
+
+.testimonial-name{
+    text-align: right;
+}
+
+.section{
+    width: 45%;
+    padding: 2%;
+    border: solid 2px #3888e9;
+    background-color: #3AA6B9;
+    float: right;
+    margin-bottom: 2%;
+    color: #fff;
+    font-family: monospace;
+}
+
+.section-background{
+    background-color: #fff;
+    float: left;
+    color: black;
+}
+
+.feature-title{
+    background-color: #2B2A4C;
+    padding: 1% 2%;
+    color: #fff;
+    width: 20%;
+    font-family: monospace;
+    font-size: 150%;
+    position: relative;
+    bottom: 30px;
+}
+
+.feature-image-section{
+    display: flex;
+    align-items: center;
+}
+
+.feature-image-section h3{
+    margin-left: 10%;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+.section p{
+    font-family: monospace;
+    font-size: 110%;
+}
+
+.subsection{
+    background-color: #3AA6B9;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.CTA-section{
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+
+.cta-height{
+    height: 170px;
+}
+
+.CTA-section img{
+    width: 50%;
+    position: relative;
+    bottom:5px;
+}
+
+/* footer section */
+
+footer{
+    height: 10vh;
+    background-color: #3AA6B9;
+    padding: 1% 15%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-section{
+    height: 2vh;
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 110%;
+    color: #fff;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: #fff;
+}
+
